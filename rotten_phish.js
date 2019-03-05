@@ -5,7 +5,6 @@ const https = require('https');
 const http = require('http');
 const request = require('request');
 const querystring = require('querystring');
-const moment = require('moment');
 
 function Bot() {
   Bot.prototype.main.sniff();
